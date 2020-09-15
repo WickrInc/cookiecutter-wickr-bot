@@ -1,0 +1,29 @@
+{
+  "name": "{{cookiecutter.project_slug}}",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "wickrbot": "^0.1.1",
+    "wickrio_addon": "^5.56.13"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "nyc": "^15.1.0",
+    "sinon": "^9.0.2"
+  },
+  "scripts": {
+    "test": "nyc mocha test --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "{{cookiecutter.git_url}}"
+  },
+  "author": "{{cookiecutter.author_name}}",
+  "license": "{{cookiecutter.license}}"
+}

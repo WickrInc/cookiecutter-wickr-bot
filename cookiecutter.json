@@ -1,0 +1,8 @@
+{
+    "bot_name": "My Bot",
+    "class_name": "{{cookiecutter.bot_name|replace(' ', '')|replace('-', '')|trim()}}",
+    "project_slug": "wickrio-{{cookiecutter.bot_name.lower()|replace(' ', '-')|replace('.', '-')|trim()}}",
+    "author_name": "",
+    "git_url": "",
+    "license": ["MIT", "BSD-3", "GNU GPL v3.0", "Apache Software License 2.0", "Unlicensed"]
+}
