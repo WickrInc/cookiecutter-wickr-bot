@@ -3,9 +3,5 @@ test:
   image: node:12-slim
   stage: test
   script:
-    - npm config set @ops:registry https://${CI_SERVER_HOST}/api/v4/packages/npm/
-    - npm config set "//${CI_SERVER_HOST}/api/v4/packages/npm/:_authToken" '${CI_JOB_TOKEN}'
-    - npm install
+    - npm ci
     - npm test -- -c
-  tags:
-    - docker

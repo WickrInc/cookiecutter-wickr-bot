@@ -5,5 +5,5 @@ Cookiecutter recipe to quickly develop bots (IO integrations) for Wickr.
 # Usage
 
 ```
-cookiecutter https://github.com/WickrInc/cookiecutter-wickrio-bot.git
+cookiecutter gh:WickrInc/cookiecutter-wickr-bot
 ```
