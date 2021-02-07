@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "wickrbot": "^0.1.1",
-    "wickrio_addon": "^5.56.13"
+    "wickrio_addon": "^5.70.2"
   },
   "devDependencies": {
     "chai": "^4.2.0",
