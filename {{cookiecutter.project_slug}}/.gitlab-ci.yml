@@ -1,7 +1,0 @@
----
-test:
-  image: node:12-slim
-  stage: test
-  script:
-    - npm ci
-    - npm test -- -c

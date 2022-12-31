@@ -9,11 +9,11 @@
   },
   "dependencies": {
     "wickrbot": "^0.1.1",
-    "wickrio_addon": "^5.70.2"
+    "wickrio_addon": "^5.113.4"
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "nyc": "^15.1.0",
     "sinon": "^9.0.2"
   },
